@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jugadores lol E-sports</title>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/Styles.css">
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="logo"></div>
+    </header>
+    <div class="play-videogames">
+        <p>Pro-Players</p>
+    </div>
+    <form onsubmit="event.preventDefault();onSubmit();" autocomplete="off">
+        <div class="caja">
+            <label for="nom">Name</label> <input type="text" id="nom" placeholder="Escriba aqui" required>
+            <label for="ape">Nickname</label> <input type="text" id="ape" placeholder="Escriba aqui" required>
+            <label for="pais">Country</label> <input type="text" id="pais" placeholder="Escriba aqui" required>
+            <label for="linea">Line</label> <input type="text" id="linea" placeholder="Escriba aqui" required>
+        </div>
+        <br />
+        <br />
+        <input class="submit" type="submit" value="Escribir">
+        <br />
+        <br />
+        <div class="tablita">
+            <table class="tabla" id="tabla">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Nickname</th>
+                        <th>country</th>
+                        <th>Line</th>
+                        <th>Options</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </form>
+    </div>
+    <footer class="footer" id="footer">
+        <a rel="noopener" target="_blank" class="social footer-fb" href="https://www.facebook.com/joOrgemichelgarica/"></a>
+        <a rel="noopener" target="_blank" class="social footer-twitter" href="https://twitter.com/mich2495"></a>
+        <a rel="noopener" target="_blank" class="social footer-instagram" href="https://www.instagram.com/jorgem_g/"></a>
+        <a rel="noopener" target="_blank" class="social footer-github" href="https://github.com/JorGar95"></a>
+        <a rel="noopener" target="_blank" class="social footer-linkedin" href="https://www.linkedin.com/in/jorge-michel-garcia-075066171/"></a>
+    </footer>
+    <script src="./JS/main.js"></script>
+</body>
+
+</html>
